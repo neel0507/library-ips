@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="indoor_positioning_system.ips">
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.sensor.accelerometer"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.sensor.compass"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.sensor.gyroscope"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.sensor.wifi"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/applogo"
+        android:label="Book Locator"
+        android:fullBackupContent="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.indooratlas.android.sdk.API_KEY"
+            android:value="@string/apikey" />
+
+        <meta-data
+            android:name="com.indooratlas.android.sdk.API_SECRET"
+            android:value="@string/apisecret" />
+
+        <activity
+            android:name="indoor_positioning_system.ips.MainActivity"
+            android:screenOrientation="portrait"
+            >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+             <!--ATTENTION: This intent was auto-generated. Follow instructions at
+              https://g.co/AppIndexing/AndroidStudio to publish your Android app deep links.
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                &lt;!&ndash; ATTENTION: This data URL was auto-generated. We recommend that you use the HTTP scheme.
+                  &ndash;&gt;
+                &lt;!&ndash;TO-DO: Change the host or pathPrefix as necessary. &ndash;&gt;
+                <data
+                    android:host="indoor_positioning_system.ips"
+                    android:pathPrefix="/"
+                    android:scheme=" " />
+            </intent-filter>-->
+        </activity>
+
+        <activity
+            android:name="indoor_positioning_system.ips.IndoorPositioningSystem"
+            android:screenOrientation="portrait"
+            android:parentActivityName="indoor_positioning_system.ips.MainActivity"
+            >
+        </activity>
+
+        <!--<activity
+            android:name=".AndroidDatabaseManager"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity">
+        </activity>-->
+
+        <activity android:name="indoor_positioning_system.ips.BookInformation"
+            android:screenOrientation="portrait"
+            android:parentActivityName="indoor_positioning_system.ips.MainActivity"
+            >
+         </activity>
+
+        <activity android:name="indoor_positioning_system.ips.SearchHistory"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"
+            android:parentActivityName="indoor_positioning_system.ips.MainActivity"
+            >
+        </activity>
+
+        <activity android:name="indoor_positioning_system.ips.Help"
+            android:screenOrientation="portrait"
+            android:parentActivityName="indoor_positioning_system.ips.MainActivity"
+            >
+        </activity>
+
+    </application>
+
+</manifest>

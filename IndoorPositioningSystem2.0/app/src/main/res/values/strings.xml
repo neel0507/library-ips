@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Book Locator</string>
+    <string name="action_settings">Settings</string>
+    <string name="sm">Show Map</string>
+    <string name="title_activity_maps">Map</string>
+    <!--<string name="indooratlas_floor_plan_id"></string>-->
+
+    <string name="tv">Search by book name:</string>
+    <string name="tv2">Search by call number:</string>
+    <string name="tv3">Search by author name:</string>
+    <string name="tv4">Search by ISBN:</string>
+
+    <string name="bs">bs</string>
+    <string name="ips">ips</string>
+    <string name="bi">bi</string>
+    <string name="gps">gps</string>
+    <string name="reset">reset</string>
+
+    <string name="help">Help</string>
+    <string name="searchhistory">Search History</string>
+
+    <string name="bl">Book Locator</string>
+    <string name="sd">Show Database</string>
+    <string name="fi">Flip Image</string>
+
+    <string name="general">General guide:</string>
+    <string name="ipsguide">Indoor Positioning System guide:</string>
+    <string name="one">1. To use the application, make sure that you have either internet or network connection.</string>
+    <string name="two">2. When typing in one of the search-fields, if no suggestion is shown up then the book you are looking for is not in the database.</string>
+    <string name="three">3. If you are not inside the library, you can use Global Positioning System to locate where the library is.</string>
+    <string name="four">1. To use the Indoor Positioning System, make sure you have a solid internet connection and 3G/4G mobile network.</string>
+    <string name="five">2. The application is portrait mode only and when you are using the Indoor Positioning System, make sure to hold your phone straight ahead in front of you and walk along:</string>
+    <string name="six">3. Do not hold the phone in landscape mode or else the Indoor Positioning may not work.</string>
+    <string name="seven">4. When the Indoor Positioning System is started, the blue dot may take a small amount of time to converge to your actual position.</string>
+    <string name="eight">5. The Indoor Positioning System only works inside the library, and if you click on \"Indoor Map\" outside the library, the application will keep loading until you are inside the library. To go back to home screen,click anywhere outside the loading screen and use top left corner back button.</string>
+    <string name="nine">6. A pointer image which points to one of the bookshelves shows where your book is located.</string>
+    <string name="holding">holding</string>
+
+    <string name="apikey">244d6c54–26eb-46ab-8ebe-3e530b51e96e</string>
+    <string name="apisecret">w6tu8wJ6AHJKZiMehj0lB9tq4QVKNkGlEL6CGbrxeVp0DCLs8h9KmzNgO8qsPP7KNt4oAOZY(9YpvoX5RFqk(10X!1!NYcnmXK55tiRx5m)If0mGBH(vtI0KUQ8g2Cuh</string>
+
+    <!--244d6c54-26eb-46ab-8ebe-3e530b51e96e-->
+</resources>
