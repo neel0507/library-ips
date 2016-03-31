@@ -37,8 +37,8 @@
     <string name="nine">6. A pointer image which points to one of the bookshelves shows where your book is located.</string>
     <string name="holding">holding</string>
 
-    <string name="apikey">244d6c54–26eb-46ab-8ebe-3e530b51e96e</string>
-    <string name="apisecret">w6tu8wJ6AHJKZiMehj0lB9tq4QVKNkGlEL6CGbrxeVp0DCLs8h9KmzNgO8qsPP7KNt4oAOZY(9YpvoX5RFqk(10X!1!NYcnmXK55tiRx5m)If0mGBH(vtI0KUQ8g2Cuh</string>
+    <string name="apikey">my key</string>
+    <string name="apisecret">my secret</string>
 
     <!--244d6c54-26eb-46ab-8ebe-3e530b51e96e-->
 </resources>
